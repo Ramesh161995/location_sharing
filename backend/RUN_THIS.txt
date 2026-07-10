@@ -1,0 +1,12 @@
+To run the SQL setup script, use this command:
+
+.\run_sql_setup.ps1
+
+Important: Don't forget the ".\" at the beginning!
+
+If you get an execution policy error, run this first:
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
+Then run the script again:
+.\run_sql_setup.ps1
+

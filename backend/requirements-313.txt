@@ -1,0 +1,31 @@
+# Python 3.13 Compatible Requirements - Minimal Working Set
+# Core FastAPI
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# Database - MySQL
+aiomysql>=0.2.0
+
+# Authentication - Core only
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-dotenv>=1.0.0
+
+# Data validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# HTTP client
+httpx>=0.25.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Logging
+structlog>=23.2.0
+
+
+
+
+
+
